@@ -33,7 +33,7 @@ chatids = [123, 456, 789]
 text = "hi there!"
 for chatid in chatids:
     if send_message(token, chatid, text):
-        print("Message sent to {}".format(chatid))
+        print("Message sent to", chatid)
     else:
-        print("Message could not be sent to {}".format(chatid))
+        print("Message could not be sent to", chatid)
 ```
